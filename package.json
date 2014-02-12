@@ -1,0 +1,28 @@
+{
+  "name": "markdown-stream",
+  "version": "0.0.1",
+  "description": "streaming version of `marked`",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hitsujiwool/markdown-stream"
+  },
+  "keywords": [
+    "stream",
+    "markdown",
+    "marked"
+  ],
+  "devDependencies": {
+    "concat-stream": "~1.4.1",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "through": "~2.3.4",
+    "marked": "~0.3.1"
+  },
+  "author": "Ryo Murayama <utatanenohibi@gmail.com>",
+  "license": "MIT"
+}
